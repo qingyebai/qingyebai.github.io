@@ -2,6 +2,10 @@
 	background: transparent
 }
 
+#page-header.post-bg {
+	background: transparent
+}
+
 /* 鼠标样式 */
 body {
   cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/default.cur),
@@ -12,3 +16,14 @@ img {
   cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/pointer.cur),
     default;
 }
+
+
+#nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+
